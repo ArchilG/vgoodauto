@@ -1,0 +1,25 @@
+.wrapperMenu .topmenu .nav li{
+    color:#fff;
+}
+.wrapperMenu .topmenu .nav li a i{
+    font-size: 15px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    vertical-align: middle;
+}
+.nav li.sub{
+    display:none;
+}
+.wrapperMenu .topmenu .nav li.sub a{
+    font-size: 16px;
+    padding: 2px 15px;
+}
+.nav li.selected{
+    text-decoration:underline;
+}
+input.error{
+    border: 2px solid red !important;
+}
+.tablebodytext{
+    display:none;
+}

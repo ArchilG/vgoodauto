@@ -19,12 +19,118 @@ BODY {
   font-size: 15px;
   left: 25px;
 }
+.mb0{ margin-bottom:0 }
+.mb5{ margin-bottom:5px }
+.mb10{ margin-bottom:10px }
+.mb20{ margin-bottom:20px }
+.mb30{ margin-bottom:30px }
+.mb40{ margin-bottom:40px }
+.mb50{ margin-bottom:50px }
+.mb15{ margin-bottom:15px }
+.mb25{ margin-bottom:25px }
+.mb35{ margin-bottom:35px }
+.mb45{ margin-bottom:45px }
+.mb55{ margin-bottom:55px }
+/************margin-top*************/
+.mt0{ margin-top:0px }
+.mt5{ margin-top:5px }
+.mt10{ margin-top:10px }
+.mt20{ margin-top:20px }
+.mt30{ margin-top:30px }
+.mt40{ margin-top:40px }
+.mt50{ margin-top:50px }
+.mt15{ margin-top:15px }
+.mt25{ margin-top:25px }
+.mt35{ margin-top:35px }
+.mt45{ margin-top:45px }
+.mt55{ margin-top:55px }
+/************margin-right*************/
+.mr5{ margin-right:5px }
+.mr10{ margin-right:10px }
+.mr20{ margin-right:20px }
+.mr30{ margin-right:30px }
+.mr40{ margin-right:40px }
+.mr50{ margin-right:50px }
+.mr15{ margin-right:15px }
+.mr25{ margin-right:25px }
+.mr35{ margin-right:35px }
+.mr45{ margin-right:45px }
+.mr55{ margin-right:55px }
+.mr70{ margin-right:55px }
+/************margin-left*************/
+.ml5{ margin-left:5px }
+.ml10{ margin-left:10px }
+.ml20{ margin-left:20px }
+.ml30{ margin-left:30px }
+.ml40{ margin-left:40px }
+.ml50{ margin-left:50px }
+.ml15{ margin-left:15px }
+.ml25{ margin-left:25px }
+.ml35{ margin-left:35px }
+.ml45{ margin-left:45px }
+.ml55{ margin-left:55px }
+/************padding-bottom*************/
+.pb5{ padding-bottom:5px }
+.pb10{ padding-bottom:10px }
+.pb20{ padding-bottom:20px }
+.pb30{ padding-bottom:30px }
+.pb40{ padding-bottom:40px }
+.pb50{ padding-bottom:50px }
+.pb15{ padding-bottom:15px }
+.pb25{ padding-bottom:25px }
+.pb35{ padding-bottom:35px }
+.pb45{ padding-bottom:45px }
+.pb55{ padding-bottom:55px }
+/************padding-top*************/
+.pt5{ padding-top:5px }
+.pt10{ padding-top:10px }
+.pt20{ padding-top:20px }
+.pt30{ padding-top:30px }
+.pt40{ padding-top:40px }
+.pt50{ padding-top:50px }
+.pt15{ padding-top:15px }
+.pt25{ padding-top:25px }
+.pt35{ padding-top:35px }
+.pt45{ padding-top:45px }
+.pt55{ padding-top:55px }
+.p605{ padding-top:60px }
+.pt65{ padding-top:65px }
+.pt65{ padding-top:65px }
+.pt70{ padding-top:70px }
+/************padding-right*************/
+.pr5{ padding-right:5px }
+.pr10{ padding-right:10px }
+.pr20{ padding-right:20px }
+.pr30{ padding-right:30px }
+.pr40{ padding-right:40px }
+.pr50{ padding-right:50px }
+.pr15{ padding-right:15px }
+.pr25{ padding-right:25px }
+.pr35{ padding-right:35px }
+.pr45{ padding-right:45px }
+.pr55{ padding-right:55px }
+/************padding-left*************/
+.pl5{ padding-left:5px }
+.pl10{ padding-left:10px }
+.pl20{ padding-left:20px }
+.pl30{ padding-left:30px }
+.pl40{ padding-left:40px }
+.pl50{ padding-left:50px }
+.pl15{ padding-left:15px }
+.pl25{ padding-left:25px }
+.pl35{ padding-left:35px }
+.pl45{ padding-left:45px }
+.pl55{ padding-left:55px }
+.dn{ display:none }
+.db{ display:block }
+.dib{ display:inline-block }
 H1,
 H2,
 H3 {
-  font-family: PTSerifRegular;
+  font-family: IBMPlexSansRegular;
   margin-bottom: 15px;
   margin-top: 38px;
+  margin-top: 20px;
 }
 h1 {
   font-size: 55px;
@@ -34,11 +140,11 @@ h1 {
 h2 {
   font-size: 35px;
   line-height: 55px;
-  text-align: center;
 }
 h3 {
   font-size: 22px;
-  line-height: 35;
+  line-height: 35px;
+  margin-top: 10px;
 }
 h4 {
   font-family: IBMPlexSansRegular;
@@ -102,7 +208,7 @@ body > div {
   font-size: 35px;
   margin-top: 19%;
   text-transform: uppercase;
-  font-family: PTSerifRegular;
+  font-family: IBMPlexSansRegular;
 }
 .header .zagSlider p {
   font-size: 24px;
@@ -173,14 +279,14 @@ body > div {
   background-color: rgba(0, 0, 0, 0.9);
   padding: 0px 25px;
   top: 0;
-  position: fixed;
+  position: absolute;
   z-index: 200;
   float: right;
   width: 320px;
-  text-align: center;
+  /*text-align: center;*/
 }
 .wrapperMenu .podzag {
-  font-family: PTSerifRegular;
+  font-family: IBMPlexSansRegular;
   font-size: 18px;
   color: #FFF;
   margin-bottom: 30px;
@@ -205,6 +311,7 @@ body > div {
   color: #fff;
   font-family: IBMPlexSansSemiBold;
   font-size: 22px;
+
 }
 .wrapperMenu .topmenu .nav li a:hover {
   background: transparent;
@@ -224,11 +331,11 @@ body > div {
   margin-top: 60px;
 }
 .wrapperMenu .nameMenu {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   color: #ffffff;
   font-size: 35px;
-  font-family: PTSerifRegular;
+  font-family: IBMPlexSansRegular;
 }
 .wrapperMenu .menuIcons {
   cursor: pointer;
@@ -290,8 +397,13 @@ body > div {
   bottom: 120px;
   text-align: center;
   color: #fff;
-  font-family: PTSerifRegular;
+  font-family: IBMPlexSansRegular;
   text-transform: uppercase;
+}
+.wrapperServices .art .title span {
+  background: rgba(0,0,0,.5);
+  padding: 5px 10px;
+  border-radius: 10px;
 }
 .wrapperServices .art .buttons {
   position: absolute;
@@ -322,7 +434,7 @@ body > div {
   -o-filter: none;
   filter: none;
   filter: none; /* IE 6-9 */
-  /* �������� �������� �������� */
+  /* �������� �������� �������� */
   -webkit-transition: all 0.1s;
   -moz-transition: all 0.1s;
   -o-transition: all 0.1s;
@@ -333,7 +445,7 @@ body > div {
   border-radius: 4px;
   height: 69px;
   padding: 20px 15px;
-  color: #FFF;
+  color: #FFF !important;
   text-align: center;
   display: inline-block;
   vertical-align: middle;
@@ -363,6 +475,7 @@ body > div {
 }
 .bttn.black:hover {
   background-color: #000000;
+  color: #FFF;
 }
 .bttn.brown {
   background-image: -moz-linear-gradient(90deg, #997650 17%, #c79d6d 100%);
@@ -371,18 +484,13 @@ body > div {
 }
 .bttn.brown:hover {
   background-color: #997650;
+  color: #FFF;
 }
 .bttn.large {
   width: 410px;
 }
 .myCenter {
   text-align: center;
-}
-.myRight {
-  text-align: right;
-}
-.myLeft {
-  text-align: left;
 }
 .wrapperGive {
   background: #000;
@@ -399,13 +507,13 @@ body > div {
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
-  padding-bottom: 95px;
+  padding: 30px 0;
 }
 .wrapperUtp .zagolovok {
   font-size: 55px;
   line-height: 75px;
-  font-family: PTSerifRegular;
-  padding: 40px 0 55px;
+  font-family: IBMPlexSansRegular;
+  padding: 10px 0 30px;
   color: #2a2f38;
 }
 .wrapperUtp .strelki {
@@ -418,7 +526,7 @@ body > div {
   display: inline-block;
 }
 .wrapperUtp .txt {
-  font-family: PTSerifRegular;
+  font-family: IBMPlexSansRegular;
   font-size: 22px;
   color: #2a2f38;
   text-align: center;
@@ -460,14 +568,14 @@ body > div {
   background-image: -moz-linear-gradient(90deg, #000000 0%, #242424 100%);
   background-image: -webkit-linear-gradient(90deg, #000000 0%, #242424 100%);
   background-image: -ms-linear-gradient(90deg, #000000 0%, #242424 100%);
-  padding-bottom: 70px;
+  padding: 30px 0 50px;
 }
 .wrapperReviews .zagolovok {
   color: #FFF;
-  font-size: 55px;
-  line-height: 75px;
+  font-size: 39px;
+  line-height: normal;
   text-align: center;
-  margin: 45px 0 50px;
+  padding: 10px 0 35px;
 }
 .wrapperReviews .horizontal > div {
   position: relative;
@@ -507,6 +615,9 @@ body > div {
 }
 .wrapperReviews .arrowRight:hover {
   background-position: -49px -260px;
+}
+.wrapperReviews .itemReview {
+  margin-bottom: 30px;
 }
 .wrapperReviews .itemReview .imgReview {
   width: 90px;
@@ -572,11 +683,11 @@ body > div {
   font-family: IBMPlexSansRegular;
   font-size: 18px;
   color: #FFF;
-  margin-top: 50px;
+  margin-top: 0px;
   margin-bottom: 35px;
 }
 .wrapperArticle {
-  padding-bottom: 70px;
+  padding-bottom: 40px;
 }
 .wrapperArticle .article h1 {
   margin-top: 20px;
@@ -604,13 +715,14 @@ body > div {
 }
 .wrapperContacts .contacts h2 {
   text-align: left;
-  margin-top: 55px;
+  margin-top: 35px;
   margin-bottom: 25px;
 }
 .wrapperContacts .contacts .addr {
-  font-size: 22px;
+  font-size: 20px;
   font-family: IBMPlexSansRegular;
   color: #FFF;
+  margin-bottom: 20px;
 }
 .wrapperContacts .contacts .addr span {
   font-family: IBMPlexSansBold;
@@ -670,7 +782,8 @@ body > div {
 }
 footer {
   background: #000;
-  padding-bottom: 55px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 footer .logo {
   display: block;
@@ -709,6 +822,7 @@ footer .fmenu .nav li a {
 footer .fmenu .nav li a:hover {
   text-decoration: underline;
   color: #3093db;
+  background: transparent;
 }
 footer .fmenu .nav li.active a {
   text-decoration: underline;
@@ -733,6 +847,9 @@ footer .copyright {
 footer .copyright a {
   display: block;
 }
+footer .copyright a:hover {
+  text-decoration: none;
+}
 footer .copyright a img {
   display: inline-block;
   vertical-align: middle;
@@ -751,7 +868,7 @@ FORM INPUT {
   background-color: #ffffff;
   max-width: 260px;
   width: 100%;
-  height: 67px;
+  height: 47px;
   padding-left: 30px;
   color: rgba(0, 0, 0, 0.5);
   font-family: IBMPlexSansRegular;
@@ -816,7 +933,7 @@ FORM INPUT::placeholder {
 .onlineCart .modal-dialog .modal-content .modal-header H2,
 #sendReview .modal-dialog .modal-content .modal-header H2,
 .onlineZayavka .modal-dialog .modal-content .modal-header H2 {
-  font-family: PTSerifRegular;
+  font-family: IBMPlexSansRegular;
   font-size: 22px;
   color: #FFF;
   text-align: center;
@@ -874,7 +991,6 @@ FORM INPUT::placeholder {
 .onlineZayavka .modal-dialog .modal-content .modal-body FORM TEXTAREA {
   margin: 0 0 9px ;
   width: 90% ;
-  font-family: PTSansRegular ;
   font-size: 13px ;
   color: #444 ;
   border: 1px solid #e7e7e7 ;
@@ -956,7 +1072,6 @@ FORM INPUT::placeholder {
 .onlineCart .modal-dialog .modal-content .modal-body FORM LABEL,
 #sendReview .modal-dialog .modal-content .modal-body FORM LABEL,
 .onlineZayavka .modal-dialog .modal-content .modal-body FORM LABEL {
-  font-family: PTSansRegular ;
   font-size: 11px ;
   color: #999999 ;
 }
@@ -970,6 +1085,308 @@ FORM INPUT::placeholder {
   margin-right: auto ;
   color: #fff ;
 }
+
+.header.page {
+  height: 138px;
+  height: auto;
+  background: url(../images/headerPage.jpg);
+  background-position: 50%;
+  padding-bottom: 30px;
+}
+.centrirovanie {
+  height: 100%;
+  width: 0;
+  margin-left: -5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.wrapArt {
+
+}
+.wrapArt h1 {
+  margin-top: 35px;
+}
+article p {
+  font-family: IBMPlexSansRegular;
+  font-size: 15px;
+  color: #2b2c2c;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+article p a {
+  color: #3293db;
+  text-decoration: underline;
+}
+article p a:hover {
+  color: #3293db;
+  text-decoration: none;
+}
+article ul {
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+article ol {
+  list-style-type: none; /* Убираем исходные маркеры */
+  counter-reset: num; /* Задаём имя счетчика */
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+article ul:not(.nav) li, article ol li {
+  list-style-type: none;
+  padding: 3px 0 5px;
+}
+article ul:not(.nav) li:before {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #d7c189; /* Цвет маркера */
+  content: "•"; /* Маркер */
+  font-size: 15px;
+  padding-right: 7px; /* Отступ от маркера до текста */
+}
+article ol li:before {
+  content: counter(num) '. '; /* Выводим число */
+  counter-increment: num; /* Увеличиваем значение счётчика */
+  color: #c79d6c;
+  font-family: IBMPlexSansSemiBold;
+  font-size: 15px;
+}
+.width50 {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+}
+.sidebar {
+  float: right;
+  margin-left: 35px;
+  margin-bottom: 50px;
+}
+.sidebar .imgLink  {
+  height: 135px;
+}
+.sidebarMenu {
+  margin-top: 85px;
+}
+.sidebar .nav li a {
+  padding: 0;
+}
+.sidebar .item-title {
+  padding: 0 30px;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  z-index: 5;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  font-family: IBMPlexSansRegular;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.sidebar .s1{
+  background: url(../images/s1.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.sidebar .s1:hover{
+  background: url(../images/s11.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.sidebar .s2 {
+  background: url(../images/s2.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.sidebar .s2:hover {
+  background: url(../images/s22.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.sidebar .s3 {
+  background: url(../images/s3.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.sidebar .s3:hover {
+  background: url(../images/s33.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.sidebar .s4{
+  background: url(../images/s4.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.sidebar .s4:hover  {
+  background: url(../images/s44.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.sidebar .s5 {
+  background: url(../images/s5.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.sidebar .s5:hover  {
+  background: url(../images/s55.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.sidebar .s6  {
+  background: url(../images/s6.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.sidebar .s6:hover  {
+  background: url(../images/s66.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.sidebar .s7  {
+  background: url(../images/s7.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.sidebar .s7:hover  {
+  background: url(../images/s77.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.sidebar .s8  {
+  background: url(../images/s8.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.sidebar .s8:hover  {
+  background: url(../images/s88.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.sidebar .s9  {
+  background: url(../images/s9.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.sidebar .s9:hover {
+  background: url(../images/s99.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+table {
+  display: table;
+  width: 100%;
+  background: #FFF;
+  margin-bottom: 30px;
+}
+table thead {
+  background: #000000;
+  color: #FFF;
+}
+table thead th {
+  font-family: IBMPlexSansRegular;
+  font-size: 18px;
+  color: #FFF;
+  text-align: center;
+  padding: 15px 0;
+  border: 1px solid #000;
+}
+table tr {
+  font-family: IBMPlexSansRegular;
+  font-size: 18px;
+  color: #FFF;
+}
+table td {
+  color: #000000;
+  font-family: IBMPlexSansRegular;
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid #c5c5cb;
+  padding: 15px;
+}
+table td img {
+  display: block;
+  max-width: 100%;
+}
+table tbody tr td:nth-child(2) {
+  text-align: left;
+}
+
+.slick-prev, .slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 38px !important;
+  height: 62px !important;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.slick-prev:before {
+  z-index: 10;
+  display: block;
+  width: 38px;
+  height: 62px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/sprite.png);
+  right: 25px;
+  left: auto;
+  background-position: 0px -175px;
+  content: '' !important;
+}
+.slick-next:before {
+  z-index: 10;
+  display: block;
+  width: 38px;
+  height: 62px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/sprite.png);
+  left: 25px;
+  right: auto;
+  background-position: 0px -260px;
+  content: '' !important;
+}
+.slick-initialized .slick-slide {
+  display: block;
+  padding: 0 15px;
+}
+.slick-prev {
+  left: -40px !important;
+}
+.slick-next {
+  right: -40px !important;
+}
+
+
+
 @media (max-width: 1400px) {
   .header {
     height: 615px;
@@ -1024,7 +1441,6 @@ FORM INPUT::placeholder {
   .wrapperUtp .zagolovok {
     line-height: 1.3em;
     font-size: 39px;
-    padding: 15px 0 15px;
     text-align: center;
   }
   .wrapForm h2 {
@@ -1037,7 +1453,7 @@ FORM INPUT::placeholder {
     width: 100%;
   }
   .wrapperUtp {
-    padding-bottom: 60px;
+
   }
   .wrapperUtp .utp img {
     max-width: 35%;
@@ -1053,8 +1469,7 @@ FORM INPUT::placeholder {
     font-size: 12px;
   }
   .wrapperReviews .zagolovok {
-    font-size: 39px;
-    line-height: 28px;
+
   }
   .wrapperArticle .article h1 {
     margin-top: 10px;
@@ -1100,6 +1515,9 @@ FORM INPUT::placeholder {
   footer .links {
     text-align: left;
   }
+  .sidebar .item-title {
+    font-size: 28px;
+  }
 }
 @media (max-width: 991px) {
   .header .phone p,
@@ -1126,8 +1544,16 @@ FORM INPUT::placeholder {
   .wrapperServices .art .title {
     font-size: 30px;
   }
+  .sidebar .item-title {
+    font-size: 22px;
+  }
 }
 @media (max-width: 767px) {
+  .wrapForm .bttn.mini {
+    width: 100%;
+    max-width: 260px;
+    margin-bottom: 10px;
+  }
   .header .logo {
     margin-bottom: 10px;
     display: block;
@@ -1197,6 +1623,18 @@ FORM INPUT::placeholder {
   .onlineZayavka .modal-dialog .modal-content .modal-body FORM label {
     width: 100%;
   }
+  footer .logo {
+    margin-left: 0;
+  }
+  footer .copy {
+    margin-left: 0;
+  }
+  article table {
+    display: none;
+  }
+  .width50 {
+    width: 100%;
+  }
 }
 @media (max-width: 576px) {
   .zagSlider img {
@@ -1233,4 +1671,35 @@ FORM INPUT::placeholder {
   .wrapperMenu .nameMenu {
     margin-bottom: 20px;
   }
+  .wrapperUtp .txt {
+    font-size: 16px;
+  }
+}
+@media (max-width: 400px) {
+  .header .logo {
+    width: 80%;
+  }
+}
+@media (max-width: 360px) {
+  .header .logo {
+    width: 70%;
+  }
+}
+@media (max-width: 320px){
+  .header .logo {
+      width: 65%;
+  }
+}
+@media (min-width: 1921px) {
+  .header {
+    background-size: contain;
+    background-color: #000;
+  }
+}
+@media (max-height: 500px) {
+  .wrapperMenu .topmenu {
+    overflow: scroll;
+    height: 100%;
+  }
+
 }
