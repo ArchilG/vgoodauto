@@ -1,0 +1,156 @@
+
+a {text-decoration: underline;}
+
+.top_menu { background: #2e2e2e;}       
+
+.header_tel_adres .btn,
+.btn-default,
+.banner_bottoms .bron .text,
+.banner_bottoms .bron .arrow
+ {
+background: #f73e23;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#f73e23), to(#C7050A));
+background: -webkit-linear-gradient(#f73e23, #C7050A);
+background: -moz-linear-gradient(#f73e23, #C7050A);
+background: -ms-linear-gradient(#f73e23, #C7050A);
+background: -o-linear-gradient(#f73e23, #C7050A);
+background: linear-gradient(#f73e23, #C7050A);
+	color: white;
+}
+
+.banner_bottoms .bron .arrow{
+background: #EB1E00;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#EB1E00), to(#A80509));
+background: -webkit-linear-gradient(#EB1E00, #A80509);
+background: -moz-linear-gradient(#EB1E00, #A80509);
+background: -ms-linear-gradient(#EB1E00, #A80509);
+background: -o-linear-gradient(#EB1E00, #A80509);
+background: linear-gradient(#EB1E00, #A80509);
+}
+
+
+  .btn-default:hover,   .btn-default:focus,   .btn-default:active {
+background: #EB1E00 !important;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#EB1E00), to(#A80509)) !important;
+background: -webkit-linear-gradient(#EB1E00, #A80509) !important;
+background: -moz-linear-gradient(#EB1E00, #A80509) !important;
+background: -ms-linear-gradient(#EB1E00, #A80509) !important;
+background: -o-linear-gradient(#EB1E00, #A80509) !important;
+background: linear-gradient(#EB1E00, #A80509) !important;
+  	opacity: .9;
+  	color: white;
+ }
+
+
+ .btn-default {
+ 	color: white;
+ 	border: none;
+ 	text-decoration: none;
+ 	text-shadow: none;
+ }
+
+.banner_bottoms .bron .text{
+	color: white;
+}
+
+.form_search .btn-default {border: 1px solid #CCC; }
+
+.form_search .btn:hover{color: red; }
+.form_search .btn:hover, .form_search .btn:active, .form_search .btn:focus {background: none !important;}
+
+
+.btn-default:hover { background: black; border-color: #2e2e2e;}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	color: black;
+	background: #f73e23;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: #363636;
+}
+
+.banner_bottoms .more {
+
+	background: #676869;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#676869), to(#575656));
+	background: -webkit-linear-gradient(#676869, #575656);
+	background: -moz-linear-gradient(#676869, #575656);
+	background: -ms-linear-gradient(#676869, #575656);
+	background: -o-linear-gradient(#676869, #575656);
+	background: linear-gradient(#676869, #575656);
+}
+
+.banner_bottoms .more:hover, .banner_bottoms .more:focus, .banner_bottoms .more:active,
+.banner_bottoms .bron:hover,  .banner_bottoms .bron:active,  .banner_bottoms .bron:focus{
+	opacity: .8;
+	color: white;
+	text-shadow: none;
+}
+
+ .index_slider .more .text, .more_service_bottom .more .text{
+	background: #2e2e2e;
+	color: white;
+}
+
+.index_slider .more .arrow, .more_service_bottom .more .arrow{
+	background: #434343;
+}
+
+.index_slider a{color: #4d4d4d;}
+/*.index_slider a:hover{color:red;}*/
+a:hover{color:red;}
+
+
+.soc_seti a{ color: white; }
+.footer_mail_adres a{ text-decoration: none; color: white;}
+
+a,
+.pagination>li>a, .pagination>li>span,
+.priem span,
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover,
+.form_search .btn-default,
+.header_tel_adres>div>div>div>.fa,
+.header_tel_adres span,
+.nomer_har_list:before,
+.gal_price,
+.title_nomer.main,
+.footer_mail_adres a span,
+.footer_tel span,
+.soc_seti a:hover, .soc_seti a:active, .soc_seti a:focus,
+.date_otziv,
+.middle_banner .title div,
+.index_slider .more .arrow, .more_service_bottom .more .arrow,
+.index_slider_cena strong, .index_slider_kol strong {color: #f73e23;}
+
+/*									Картинки темы								*/
+
+.logo>div{ background: url(images/logo.png) no-repeat;  background-position: calc(100% - 40px) 10px;}
+.footer_logo {background: url(images/logo_footer.png) no-repeat; width: 170px; height: 80px;}
+
+.top_banner>div>div {background: url(images/banner_ukaz.png) no-repeat center center;}
+
+.index_priemushestva.wifi {background: url(images/priem_wifi.png) center center no-repeat;}
+.index_priemushestva.parking {background: url(images/priem_parking.png) center center no-repeat;}
+.index_priemushestva.kam_hran {background: url(images/priem_kam_hran.png) center center no-repeat;}
+.index_priemushestva.transfer {background: url(images/priem_transfer.png) center center no-repeat;}
+.index_priemushestva.ekskursii {background: url(images/priem_ekskursii.png) center center no-repeat;}
+.index_priemushestva.room_srvice {background: url(images/priem_room_srvice.png) center center no-repeat;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

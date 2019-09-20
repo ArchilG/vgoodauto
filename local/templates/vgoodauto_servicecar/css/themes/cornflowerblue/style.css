@@ -1,0 +1,105 @@
+
+/*              #1c94c4             */
+
+
+
+a,
+.index_contacts .social a,
+.logo .name
+{
+    color:#1c94c4;
+}
+
+
+.index_contacts  li.active:hover {  background: #1c94c4; }
+
+.btn-default,
+.index_slider .item .text>div a,
+.mb-slider .mb-panel.current .slider_top_color_bg_content,
+.bx_catalog-compare-list_sravn .kol
+{
+    background: #1c94c4;
+}
+
+.btn-default:hover, 
+.btn-default:active,
+.btn-default:focus{ 
+    background: #1c94c4 !important;
+    filter: grayscale(30%);
+}
+
+.main_menu_gorizontal .nav-pills>li:hover{ border-bottom: 3px #1c94c4 solid; }
+
+.search_top_bottom[aria-expanded="true"] , .search_top_bottom.collapsed:hover {
+    border-bottom: 3px #1c94c4 solid;
+    background: rgba(255,255,255, .1);
+}
+
+.color_bg, .mb-slider .mb-panel.current .slider_top_color_bg_content
+ {
+    background: #1c94c4;   
+    opacity: .8;
+    box-shadow: 0 0 0 30000px rgba(0,0,0, .9) inset;
+
+}
+
+.index_title h2>div>div.line {border-top: #1c94c4 solid 3px;}
+
+.index_title.white h2>div>div.color {border-top: #1c94c4 solid 3px;}
+
+.priem { background: #1c94c4; color: white; }
+
+.uslugi_index_one>div:hover { 
+    background: #1c94c4;
+    color: white;
+    border: 1px #1c94c4 solid; 
+}
+.catalog_projects_index_one>div:hover { 
+    background: white;
+    color: #1c94c4;
+    border: 1px #1c94c4 solid; 
+}
+
+.catalog_projects_index_one>div:hover .link { 
+    color: white;
+    background: #1c94c4;
+}
+
+.catalog_index_one:hover .btn { 
+    background: #1c94c4; 
+    color: white; 
+    border-radius: 0 !important;
+    border-color: #1c94c4;
+}
+
+.catalog_index_one>div:hover { border-color: #1c94c4;  }
+
+.akcii:hover {  background: #1c94c4; color: white; }
+
+.slider.brands .slick-slide a:hover { 
+    filter: grayscale(0); 
+    background: #1c94c4;
+    border-color: #1c94c4;
+}
+
+.index_contacts  li.active{ 
+    background: #1c94c4;
+    border-color: #1c94c4;
+    z-index: 2;
+}
+
+.index_contacts .social a:hover {
+    background: #1c94c4;
+    color: white;
+    border-color: #1c94c4;
+}
+
+.bx-filter .bx-ui-slider-handle { background: #1c94c4 !important; }
+.bx-filter.bx-black .bx-ui-slider-pricebar-v { 
+    background: #1c94c4 !important;
+    opacity: .20 !important;
+}
+
+.link_index_catalog_uslugi a:hover { background: #1c94c4; color: white; }
+
+.mb-slider .mb-panel.current .item {    border-bottom: 5px #1c94c4 solid !important;}

@@ -1,0 +1,24 @@
+.cart_itog { font-size: 20px; font-family: "normal" }
+.cart_itog td { border: none !important; border-color: white !important; }
+
+.form_zakaz .num { font-family: "normal"; background: white }
+/*.form_zakaz .name { font-size: 16px; }*/
+
+.form_zakaz table { background: #F9F9F9; font-size: 14px; }
+
+.form_zakaz .form-group.control-group { margin-left: 0 !important; margin-right: 0 !important; margin-bottom: 0 !important;}
+
+.form_zakaz .control-label { font-size: 18px; margin-bottom: 5px !important; font-family: "normal"; font-weight: normal;}
+
+.fa-asterisk { color: red; font-size: 12px !important; }
+
+.odrder_finish { border: 1px #B8D6B7 solid; padding: 60px 40px; font-size: 18px; margin-top: 30px; border-radius: 3px; }
+.odrder_finish .fa{ font-size: 120px; color: #70D070; }
+
+.old_price{ color: #AAA; font-size: 16px; }
+
+
+@media (max-width: 768px) {
+.yandex_oplata_form { margin-left: -120px; width: 170%; }
+.odrder_finish { border: none; }
+}

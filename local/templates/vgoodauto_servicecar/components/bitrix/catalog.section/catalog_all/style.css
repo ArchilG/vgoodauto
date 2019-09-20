@@ -1,0 +1,144 @@
+
+
+table.artikul_nalichie { width: 100%; height: 50px; }
+table.artikul_nalichie td{vertical-align: middle; }
+a table.artikul_nalichie { color: #707070; }
+
+
+.kol_tovar_plus_minus .btn { padding: 7px 10px; }
+
+td.art { font-size: 13px; }
+
+.plitki_more div>div {
+    /*display: inline-block;*/
+    /*width: 90px;*/
+    /*border: 1px red solid;*/
+    /*padding: 0;*/
+
+}
+ 
+.opisanie_razd {
+
+    /*margin: 0 20px 0 15px;*/
+    padding: 20px 0;
+    border-top: 1px solid #e6e6e6;
+    /*border-bottom: 1px solid #e6e6e6;*/
+}
+
+
+
+
+.plitki_more .btn {
+    background-image: none;
+    width: 50%;
+    color: #ADADAD;
+    font-size: 13px;
+    padding: 0;
+}
+
+.plitki_more .btn:hover { color: #636363; }
+
+
+.plitki_more .btn:active, .plitki_more .btn.active {
+    outline: 0;
+    background-image: none;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+    box-shadow: none;
+    color: black;
+}
+
+
+.list-group {
+    width: 100%;
+}
+
+    /* Список продукции*/
+
+.prod_plitki a .prod_title{ color: black; font-size: 18px; line-height: 16pt; }
+
+.prod_plitki:hover { box-shadow: 0 0 10px rgba(0,0,0, .1)  inset;}
+
+.prod_all{position: relative;   }
+
+.prod_plitki .btn { border: none !important; }
+
+.prod_plitki { /*margin-top: 40px;*/ border: 1px solid #ededed; height: 550px; padding: 30px 0; margin-top: -1px; margin-left: -1px; }
+.prod_plitki .prod_title{ height: 60px; overflow: hidden;   }
+.prod_plitki .cena{ font-size: 18px; margin: 20px 0; white-space: nowrap; font-family: 'bold';}
+.prod_plitki .cena div { display: inline-block; }
+.prod_plitki .cena span{ font-size: 14px; color: #A3A3A3;font-family: 'light'; text-decoration: line-through; /*display: block;*/}
+.prod_plitki .v_nalichii{ font-size: 13px; color: green; }
+.prod_plitki .no_v_nalichii{ font-size: 13px; color: #acacac; }
+.prod_plitki .car{ font-size: 14px; padding: 8px 20px; width: 100%;}
+.prod_plitki .car_no_kol{ font-size: 14px; padding: 8px 20px; width: 100%;}
+
+.prod_plitki a.zakaz{ 
+    background: #7f7f7f !important; 
+
+}
+.prod_plitki a.zakaz:hover{ background: #686868 !important;}
+.prod_plitki .plitki_more{ border: 1px solid #ebe9eb; padding: 8px 5px; margin-top: 10px; text-align: center;  font-size: 13px;}
+.prod_plitki .plitki_more a{ color: #acacac; }
+.prod_plitki .plitki_more a:hover{ color: red; }
+
+.cena_nalichie table{ height: 66px;  }
+
+.kolichectvo {display: inline-block; float: left;  font-size: 16px; margin-top: 1px;}
+.kolichectvo table{border: #e4e2e4 1px solid; }
+.kolichectvo td{ text-align: center; padding: 6px 0; }
+.kolichectvo a{ color: #6f6a6f; }
+
+
+.kolichectvo input{ border-radius: 0; box-shadow: none; border: none; width: 100%; text-align: center; padding: 0; font-size: 16px; display: inline-block;}
+
+
+.catalog_index_one .shildiki {
+    position: absolute;
+    height: 100px;
+    z-index: 1000;
+    top: 25px;
+    left: 30px;
+}
+
+.catalog_index_one .shildiki .new, .catalog_index_one .shildiki .hit, .catalog_index_one .shildiki .recom, .catalog_index_one .shildiki .rasprod {
+ height: 40px;  
+ width: 40px;
+ margin-top: -10px;
+}
+
+
+.catalog_index_one .shildiki .new { background: url(images/sh_new.png) left no-repeat; }
+.catalog_index_one .shildiki .hit { background: url(images/sh_hit.png) left no-repeat; }
+.catalog_index_one .shildiki .recom { background: url(images/sh_recom.png) left no-repeat; }
+.catalog_index_one .shildiki .rasprod { background: url(images/sh_raspr.png) left no-repeat; }
+
+
+.prod_plitki .proc_skidki {
+    background: #c600ff;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    float: right;
+    /*margin: -8px;*/
+    
+    text-align: center;
+    border-radius: 35px;
+    padding-top: 10px;
+    color: white;
+}
+
+.prod_plitki .proc_skidki div {
+    color: white;
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    margin-left: 0;
+    font-family: 'fregatbold';
+
+}
+
+    /* .Список продукции */
+
+

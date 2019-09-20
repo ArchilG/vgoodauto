@@ -1,0 +1,101 @@
+
+a,
+.index_contacts .social a,
+.logo .name
+{
+    color:red;
+}
+
+
+.index_contacts  li.active:hover {  background: red; }
+
+.btn-default,
+.index_slider .item .text>div a,
+.mb-slider .mb-panel.current .slider_top_color_bg_content,
+.bx_catalog-compare-list_sravn .kol
+{
+    background: red;
+}
+
+.btn-default:hover, 
+.btn-default:active,
+.btn-default:focus{ 
+    background: red !important;
+    filter: grayscale(30%);
+}
+
+.main_menu_gorizontal .nav-pills>li:hover{ border-bottom: 3px red solid; }
+
+.search_top_bottom[aria-expanded="true"] , .search_top_bottom.collapsed:hover {
+    border-bottom: 3px red solid;
+    background: rgba(255,255,255, .1);
+}
+
+.color_bg, .mb-slider .mb-panel.current .slider_top_color_bg_content
+ {
+    background: red;   
+    opacity: .8;
+    box-shadow: 0 0 0 30000px rgba(0,0,0, .9) inset;
+
+}
+
+.index_title h2>div>div.line {border-top: red solid 3px;}
+
+.index_title.white h2>div>div.color {border-top: red solid 3px;}
+
+.priem { background: red; color: white; }
+
+.uslugi_index_one>div:hover { 
+    background: red;
+    color: white;
+    border: 1px red solid; 
+}
+.catalog_projects_index_one>div:hover { 
+    background: white;
+    color: red;
+    border: 1px red solid; 
+}
+
+.catalog_projects_index_one>div:hover .link { 
+    color: white;
+    background: red;
+}
+
+.catalog_index_one:hover .btn { 
+    background: red; 
+    color: white; 
+    border-radius: 0 !important;
+    border-color: red;
+}
+
+.catalog_index_one>div:hover { border-color: red;  }
+
+.akcii:hover {  background: red; color: white; }
+
+.slider.brands .slick-slide a:hover { 
+    filter: grayscale(0); 
+    background: red;
+    border-color: red;
+}
+
+.index_contacts  li.active{ 
+    background: red;
+    border-color: red;
+    z-index: 2;
+}
+
+.index_contacts .social a:hover {
+    background: red;
+    color: white;
+    border-color: red;
+}
+
+.bx-filter .bx-ui-slider-handle { background: red !important; }
+.bx-filter.bx-black .bx-ui-slider-pricebar-v { 
+    background: red !important;
+    opacity: .20 !important;
+}
+
+.link_index_catalog_uslugi a:hover { background: red; color: white; }
+
+.mb-slider .mb-panel.current .item {    border-bottom: 5px red solid !important;}

@@ -1,0 +1,11 @@
+
+	.main .content ul { list-style: none; margin: 15px 0; }
+
+	.main .content ul li:before {
+    font-family: "FontAwesome";
+    content:"\f105";
+    padding: 2px 7px 0 0;
+}
+
+
+	.main .content li { line-height: 16pt; margin-bottom: 8px;}

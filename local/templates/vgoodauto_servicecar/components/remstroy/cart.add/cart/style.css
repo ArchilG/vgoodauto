@@ -1,0 +1,50 @@
+.bx_catalog-compare-list_sravn{
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0, .7);
+    margin-bottom: 5px;
+    /*height: 75px;*/
+    color: white;
+    font-size: 33px;
+    display: block;
+    /*padding-top: 20px;*/
+    line-height: 18pt;
+     /*border-radius: 5px 0 0 5px;*/
+     padding: 20px 10px 15px 10px;
+     min-width: 80px;
+
+}
+.bx_catalog_compare_count a:hover, .bx_catalog_compare_count a:active, .bx_catalog_compare_count a:focus
+{
+    color: white;
+}
+
+.bx_catalog-compare-list_sravn:hover { background: black }
+
+.bx_catalog-compare-list_sravn .na_summu { font-size: 11px; margin: 2px 0 2px 0; color: rgba(255,255,255, .6);  }
+
+.bx_catalog-compare-list_sravn .kol {
+    font-size: 13px;
+    display: inline-block;
+    position: absolute;
+    top: -12px;
+    right: -13px;
+    background: red;
+    color: white;
+    padding: 3px ;
+
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    font-family: "normal";
+}
+.bx_catalog_compare_count .cart_summa {
+    display: block; 
+font-size: 13px; 
+padding-top: 0; line-height: 0pt;}
+.bx_catalog_compare_count .cart_kol {
+    width: 40px; 
+height: 40px; 
+position: relative; margin-left: 8%;}
+
+.bx_catalog-compare-list_sravn a{ color: #DBDBDB; }

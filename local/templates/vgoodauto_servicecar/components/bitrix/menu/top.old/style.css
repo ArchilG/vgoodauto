@@ -1,0 +1,97 @@
+
+
+
+/*	Главное меню	*/
+
+.main_menu_gorizontal {
+		background:  #1c94c4;
+		text-transform: uppercase;
+		font-size: 14px;
+		white-space: nowrap;
+		font-family: 'bold';
+		height: 60px;
+}	
+
+
+.main_menu_gorizontal li>a{
+	/*text-align: left !important;*/
+	/*padding-left: 0 !important;*/
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	color: white;
+}
+
+.main_menu_gorizontal .nav-pills>li {
+		/*margin-right: 2.5% !important;*/
+		height: 60px;
+		border-left: rgba(255,255,255, .3) dotted 1px;
+		padding-top: 22px;
+}
+
+
+.main_menu_gorizontal .nav-pills>li:last-child {border-right: rgba(255,255,255, .3) dotted 1px;}
+
+
+.main_menu_gorizontal .nav-pills>li a:hover, .main_menu_gorizontal .nav-pills>li a:active, .main_menu_gorizontal .nav-pills>li a:focus { background:none !important;}
+.main_menu_gorizontal .nav-pills>li:hover, .main_menu_gorizontal .nav-pills>li:focus, .main_menu_gorizontal .nav-pills>li:active { background: rgba(0,0,0, .1);}
+
+.main_menu_gorizontal .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+    background: none !important;
+    border: none !important;
+}
+.main_menu_gorizontal .nav-pills>li.active>a, .main_menu_gorizontal .nav-pills>li.active>a:hover, .main_menu_gorizontal .nav-pills>li.active>a:focus {
+    color: rgba(0,0,0, .4) !important;
+    background: none !important;
+}
+
+.dropdown-menu { z-index: 10000 !important; }
+
+.nav-pills .dropdown-menu {
+    top: 58px !important; 
+}
+
+
+.main_menu_gorizontal .zayavka{
+	text-align: right;
+	display: table-cell;
+	vertical-align: middle;
+	height: 60px;
+	width: 200px !important;
+}
+
+.main_menu_gorizontal .zayavka>a>span{
+border-bottom: 1px dotted #1c94c4;
+}
+
+		/* Субменю	*/
+
+		.dropdown-menu li a{
+			color: black;
+		}
+			.dropdown-menu li{
+			color: black;
+			padding: 10px 20px;
+			border-top: #ddd 1px solid;
+		}
+		.dropdown-menu li:hover, .dropdown-menu li a:hover{ background: #ddd; color: black !important; }
+
+		.dropdown-menu li:first-child{ border: none; }
+		.dropdown-menu {
+		    left: 0;
+		    border: none !important;
+		    font-size: 14px;
+		    text-transform: none;
+		    border: 1px #ddd solid;
+		   }		
+
+		/* .Субменю	*/
+a.root-item:hover, a.root-item:focus, a.root-item:active { background: none !important; } 
+
+.dropdown-menu>li>a:hover { background: none !important; }
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+    color: #939393 !important;
+    background: none !important;
+}
+
+/*	.Главное меню	*/

@@ -1,0 +1,35 @@
+
+.menu_mobile .navbar-toggle {float: none !important;}
+
+.menu_mobile .navbar-header button { color: white; text-transform: uppercase;}
+
+.menu_mobile .dropdown.active a.dropdown-toggle, li.active a.root-item-selected { color: rgba(0,0,0, .7); text-decoration: none; }
+
+
+.menu_mobile .navbar-header { background: none !important; border: none; }
+.menu_mobile .navbar-nav { text-transform: uppercase; font-size: 13px; text-align: left;}
+.menu_mobile .nav>li { padding: 0 10px; }
+
+.menu_mobile .dropdown-menu a { bottom-top: 1px rgba(255,255,255, .1) !important; font-size: 14px; }
+
+ 
+.menu_mobile .dropdown-menu { background: rgba(0,0,0, 0.1) !important; }
+
+ .navbar-header button { display: inline-block; float: right; margin: 0; padding: 15px 10px;  }
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #ffffff !important;
+   background-color: rgba(0,0,0, .2) !important;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+     border-color: rgba(0,0,0, .2) !important; 
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: rgba(0,0,0, .2) !important;
+}
+
+.menu_mobile #catalog { background: rgba(0,0,0, .2) !important; }
+

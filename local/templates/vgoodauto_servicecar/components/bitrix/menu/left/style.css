@@ -1,0 +1,98 @@
+
+
+
+
+
+
+.left_menu { margin: 0 20px 25px 0;}
+
+
+.left_menu .nav>li>a {
+     color: rgba(0, 0, 0, 1);
+    /*margin-right: 40px;*/
+    font-family: 'normal';
+    text-transform: uppercase;
+    font-size: 12px;
+
+}
+
+
+.left_menu .nav>li { border-bottom: 1px solid rgba(0,0,0, .15); padding: 10px 0 !important;}
+.left_menu .nav>li:last-child { border-bottom: none;}
+.left_menu .nav>li>a { padding: 0;}
+
+.left_menu .nav-pills>li.active>a, .left_menu .nav-pills>li.active>a:hover, .left_menu .nav-pills>li.active>a:focus {
+    /*color: #ffffff;*/
+    color: rgba(0,0,0, .5);
+    background: none ;
+}
+
+.left_menu .nav-pills>li>a{
+    color: rgba(0,0,0, .9);
+}
+
+.left_menu .nav-pills>li>a.menu_left_text:hover, .left_menu .nav-pills>li>a.menu_left_text:focus, .left_menu .nav-pills>li>a.menu_left_text:active {
+    color: rgba(0,0,0, .5);
+	background: none !important;    
+}
+
+
+.left_menu .nav-pills>li.active>a.menu_left_text, .left_menu .nav-pills>li.active>a.menu_left_text:hover, .left_menu .nav-pills>li.active>a.menu_left_text:focus {
+    color: rgba(0,0,0, .4);
+	background: none !important;
+	/*color: black;*/
+}
+
+
+a.menu_left_arrow { 
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #DDD !important;
+    float: right;
+    margin-top: -2px;
+     }
+
+.menu_left_arrow .fa{ margin: 3px 5px; font-size: 16px;}
+
+a.menu_left_arrow:hover { 
+    background: #B5B5B5 !important;
+     }     
+
+.nav-pills>li.active>.menu_left_arrow {
+     color: rgba(0,0,0, 1) !important; 
+     background: #939393 !important;
+     color: white !important;
+}     
+
+.nav-pills>li.active>.menu_left_arrow:hover {background: #B5B5B5 !important;}
+
+.left_menu .nav-pills>li.active>a.menu_left_text, .left_menu .nav-pills>li.active>a.menu_left_text:hover, .left_menu .nav-pills>li.active>a.menu_left_text:focus {
+     color: rgba(0,0,0, .5) !important; 
+     background: none !important;
+}     
+
+
+
+/*Субменю*/
+
+.left_menu .nav-pills>li>div>ul {
+    border-top: #ddd 1px dotted;
+    margin-top: 10px;
+    padding-top: 10px;
+    
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: "normal";
+    line-height: 14pt;
+
+}
+
+.left_menu .nav-pills>li>div>ul li { padding: 5px 0; }
+
+.left_menu .nav-pills>li>div>ul li a {color: rgba(0,0,0, .8); }
+.left_menu .nav-pills>li>div>ul li a:hover{color: rgba(0,0,0, .5); }
+.left_menu .nav-pills>li>div>ul li.active a { opacity: .5 }
+
+
+

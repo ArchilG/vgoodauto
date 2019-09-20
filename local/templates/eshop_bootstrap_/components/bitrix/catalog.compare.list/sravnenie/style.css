@@ -1,0 +1,16 @@
+.bx_catalog-compare-list_sravn{
+    text-align: center;
+    color: white;
+    background: #AFAFAF;
+    margin-bottom: 5px;
+    height: 60px;
+    color: white;
+    font-size: 26px;
+    display: block;
+    padding-top: 8px;
+    line-height: 18pt;
+
+}
+
+.bx_catalog-compare-list_sravn .kol {font-size: 14px; margi-top: -3px; display: block;}
+.bx_catalog-compare-list_sravn a{ color: #E8E8E8; }

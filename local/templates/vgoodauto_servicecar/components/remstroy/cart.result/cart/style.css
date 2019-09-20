@@ -1,0 +1,49 @@
+
+.cart { font-size: 18px; }
+.cart .price{white-space: nowrap;/* font-size: 20px;*/ font-weight: bold; }
+.cart td{ vertical-align: middle !important; }
+.cart a{ text-decoration: none !important;  }
+.cart .opisanie{ margin-top: 10px; font-size: 13px; color: #777777; }
+.cart .no_sk{ white-space: nowrap; font-size: 13px; color: #777777;}
+/*table.fav th{ text-align: center; }*/
+
+
+.kol_tovar_plus_minus input{ height: 37px; min-width: 60px; border-radius: 0 !important; text-align: center;}
+.kol_tovar_plus_minus .btn { padding: 5px 10px; }
+
+.cart>div { padding: 15px 0 ;}
+.cart>div>div {padding: 10px 15px ;}
+
+.cart .num { font-family: 'normal'; font-size: 20px; white-space: nowrap; }
+
+
+.th_cart { font-size: 16px; font-family: 'bold'; padding-bottom: 15px; }
+
+.cart_itog { padding: 30px 15px; margin-bottom: 30px;  font-size: 24px; font-family: 'normal'; border-top: 1px solid #ddd;  border-bottom: 1px solid #ddd; }
+
+.cart_itog>div { /*margin: 0 -30px;*/ /*border-top: 1px solid #ddd; */}
+
+/*.cart .delete { width: 20%; text-align: center; float: right; }*/
+
+.cart_tovar_delete { position: absolute; top: -5px; right: -10px; font-size: 18px; }
+
+table.table_kol_ed_izm {width: 100%;}
+table.table_kol_ed_izm .ed_izm { width: 30%; padding-left: 5px; text-align: center;}
+
+.form_zakaz  {
+	padding: 20px 30px !important;
+    border: 1px #EDEDED solid;
+    box-shadow: 0 0 30px rgba(0,0,0, .05);
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+
+.delete_cart_all { color: #DA4747 !important; border-color: #DA4747 !important; margin-left: -15px;}
+.delete_cart_all:hover, .delete_cart_all:active, .delete_cart_all:focus { color: white !important; background: #DA4747 !important;}
+
+.text_delete_cart { font-size: 16px; margin-bottom: 15px;  }
+.text_delete_cart strong{ display: block; font-size: 18px; text-transform: uppercase; line-height: 0; color: #DA4747;}
+
+.artikul { white-space: nowrap; font-size: 14px; color: #3F3F3F; margin-top: 10px; }
+.artikul i{ color: #AFAFAF; }

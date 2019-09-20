@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/bitrix/templates/eshop_bootstrap_/components/bitrix/main.profile/user/lang/ru/template.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/import/index.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/local/templates/eshop_bootstrap_/components/bitrix/catalog.section/catalog_list/template.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/local/templates/eshop_bootstrap_/components/bitrix/catalog/catalog_all/bitrix/catalog.element/.default/template.php" charset="UTF-8" />
+  </component>
+</project>

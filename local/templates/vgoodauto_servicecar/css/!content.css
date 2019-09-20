@@ -1,0 +1,22 @@
+
+
+.flex_css_content {
+
+		display: flex !important; 
+		-webkit-align-items: center !important; /* Safari */
+		align-items: center !important;
+		box-sizing: content-box !important;
+		height: 160px !important;
+
+}
+
+.header .adress {padding: 20px 15px; height: auto;}
+.header .logo {height: auto; position: relative;}
+.header .logo>div {position: relative; bottom: auto;}
+.header .contacts {padding: 20px 15px 30px; height: auto;}
+
+
+.index_slider, .index_slider .carousel, .index_slider .carousel-inner  { height: 220px !important; }
+
+
+.index_slider .carousel-control { display: none; }

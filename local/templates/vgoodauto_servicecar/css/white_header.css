@@ -1,0 +1,72 @@
+.slider_top_color_bg.color_bg {
+	box-shadow: 0 0 0 30000px rgba(255,255,255, .95) inset !important;
+}
+
+.header {
+	color: black;
+}
+
+
+.fixed_main_menu .main_menu_gorizontal {
+    background: white;
+}
+
+.logo .slogan {
+    color: black;
+}
+
+.main_menu_gorizontal {
+    border-bottom: 1px solid rgba(0,0,0, .1);
+}
+
+.main_menu_gorizontal li>a {
+    color: black;
+}
+
+.search_top_bottom {
+    color:  black;
+}
+
+.main_menu_gorizontal .nav-pills>li.active>a, .main_menu_gorizontal .nav-pills>li.active>a:hover, .main_menu_gorizontal .nav-pills>li.active>a:focus, .main_menu_gorizontal .nav-pills>li>a.root-item-selected {
+    color: rgba(0,0,0, .6) !important;
+}
+
+.searchform_top {
+    background: white;
+    color: black;
+    border: rgba(0,0,0, .1) 1px solid;
+    border-top: none;
+}
+
+.searchform_top input {
+    color: black;
+    box-shadow: none !important;
+}
+
+.searchform_top .btn {
+    border-left: 1px rgba(0,0,0, .1) solid;
+
+}
+
+.searchform_top .btn:hover {
+  color: black;
+
+}
+
+.carousel-control.right {
+    background: url(pict/slider_right_black.png);
+    opacity: .8;
+}
+.carousel-control.left {
+    background: url(pict/slider_left_black.png);
+    opacity: .8;
+}
+
+.index_slider .item .text>div {
+    color: black;
+}
+
+.header .contacts .btn {
+    color: black;
+    border: rgba(0,0,0, .3) 1px solid;
+}

@@ -1,0 +1,65 @@
+.nomer_pict #carousel { width: 60%; height: 120px; margin: 5px 0 0 0}
+
+
+	.main .content ul { list-style: none; margin: 15px 0; }
+
+	.main .content ul li:before {
+    font-family: "FontAwesome";
+    content:"\f105";
+    padding: 2px 7px 0 0;
+}
+
+
+	.main .content li { line-height: 16pt; margin-bottom: 8px;}
+
+
+/*		Оформление характеристик		*/
+
+	.table_har { width: 100%; margin: -30px 0 40px; border-padding: 1px !important;}
+
+
+	.table_har th, .table_har td{ 
+		padding: 15px 0 0;
+		border-bottom: 1px #C4C4C4 dotted;
+		position: relative;
+		display: table-cell;
+		text-align: left;
+		vertical-align: bottom;
+	 }
+
+.table_har td{ text-align: right; padding-right: 1px;}
+
+	.table_har th span, .table_har td span{ 
+		display: inline-block;
+		background: white;
+		/*padding: 0 15px 0 0;*/
+		/*margin-bottom: -20px;*/
+		bottom: -8px;
+		position: relative;
+	}
+
+	.table_har th span {padding-right: 7px;}
+	.table_har td span {padding-left: 7px;}
+
+/*		Оформление характеристик		*/
+
+		 .nomer_pict {height: 550px; z-index: 998; position: relative;}
+		 .gal_price {
+		 	position: absolute;
+		 	bottom: -7px;
+		 	right: 3px;
+		 	z-index: 1000;
+		 	height: 120px;
+		 	width: 315px;
+		 	border: 1px #ddd solid;
+		 }
+
+		 .gal_price>div {height: 120px; display: table-cell; vertical-align: middle; width: 315px; border-left: 1px rgba(255,255,255, .2) solid;}
+
+		 .gal_price .btn {font-family: 'bold'; font-size: 16px; padding: 10px 20px 8px; text-shadow: none;}
+
+		 .gal_price>div>.summa { font-size: 30px;}
+
+		 .gal_price div>span{font-size: 16px;}
+
+ 		 .works_last_one { height: 250px !important;  }

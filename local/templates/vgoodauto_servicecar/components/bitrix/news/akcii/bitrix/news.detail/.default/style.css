@@ -1,0 +1,21 @@
+.akciya h3{ margin-top: 0;}
+
+	.skidka { 
+
+	position: absolute;
+	top: 0; 
+	right: 15px;
+	/*float: right;*/
+	background: red;
+	color: white;
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	text-align: center;
+	font-family: 'normal';
+	font-size: 34px;
+	padding-top: 27px;
+	margin-left: 150px;
+}
+
+.akciya img {margin-bottom: 20px;}

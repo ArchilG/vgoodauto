@@ -1,0 +1,23 @@
+
+			 /*.otz_one { margin-bottom: 30px; }*/
+			 .otz_one img{
+				width: 120px;
+				height: 120px;
+				border-radius: 80px;
+				float: right;
+				margin: -7px -20px 10px 10px;
+				border: 20px white solid;
+			}
+
+			 .otz_one strong { border-bottom: 1px #F7A46D solid; }
+
+.otz_one strong {
+	font-family: "light";
+	font-size: 20px;
+	font-weight: normal;
+	display: block;
+	margin-bottom: 10px;
+	 display: block;
+}
+
+.otz_one a{color: black;}

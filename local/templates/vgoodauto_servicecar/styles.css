@@ -1,0 +1,82 @@
+
+h2.line, h3.line, h4.line, h5.line, h5.line { border-bottom: 1px #ddd solid; margin-bottom: 20px; padding-bottom: 5px;  font-family: 'light' !important }
+h1, h2, h3, h4, h5, h6 { font-family: "light"; }
+
+body { font-family: "light"; }
+
+b, strong,th { font-family: 'bold'; }
+
+.list_content { list-style: none; margin: 15px 0; }
+.list_content li:before {
+    font-family: "FontAwesome";
+    content:"\f105";
+    padding: 2px 7px 0 0;
+}
+
+
+img.content_img_responsive {}
+
+
+
+.list_content li { line-height: 16pt; margin-bottom: 8px;}
+
+.content_vagno, .content_info , .content_contact {
+	padding: 20px 20px 20px 70px;
+	position: relative;
+/*	border-top: #E9E1E1 2px solid;
+	border-bottom: #E9E1E1 2px solid;*/
+	margin: 20px 0 20px 0;
+    border-radius: 3px;
+    /*font-family: "normal";*/
+}
+
+	.content_vagno:before, .content_info:before, .content_contact:before {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    /*color: #F17878;*/
+    color: white;
+    font-family: "FontAwesome";
+    font-size: 43px;
+    line-height: 43px;
+    text-shadow: 0 0 4px rgba(0,0,0, 0.08);
+}
+
+	.content_vagno:before {content:"\f06a"; }
+	.content_info:before {content:"\f05a"; }
+	.content_contact:before {content:"\f1d8";  font-size: 38px;  line-height: 38px; }
+
+	.content_vagno{background: #E9B8B8;}
+	.content_info{background: #D5D9E6;}
+	.content_contact{background: #DEE8D8; }
+
+	.content_img_responsive, .content_img_left, .content_img_right { padding: 3px; border: 1px #E2E2E2 solid; }
+
+	.content_img_left, .content_img_right { display: inline-block; }
+	.content_img_left { float: left; margin: 0 15px 5px 0; }
+	.content_img_right { float: right; margin: 0 0 5px 15px; }
+
+
+	.content_img_responsive img{
+		width: 100%;
+		height: auto;
+	}
+
+/*
+
+Важно
+fa-exclamation-circle
+content:"\f06a";
+content:"\f071";
+
+
+Цитата
+content:"\f10d";
+
+Скидки
+content:"\f295";
+
+
+Часы
+content:"\f017";
+*/

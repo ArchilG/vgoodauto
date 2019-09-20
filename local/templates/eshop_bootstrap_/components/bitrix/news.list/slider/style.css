@@ -1,0 +1,79 @@
+
+	/*	Слайдер  */
+
+	.index_slider .item { height: 300px; }
+
+	.index_slider{
+		margin-bottom: 15px;
+	}        
+
+	.index_slider {
+		position:relative;
+		-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+		-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+		box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 0px rgba(0, 0, 0, 0.1) inset;
+		-webkit-box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 50px rgba(0, 0, 0, 0.1) inset;
+		-moz-box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 50px rgba(0, 0, 0, 0.1) inset;
+		box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 50px rgba(0, 0, 0, 0.1) inset;
+	}        
+
+	.index_slider:before,
+	.index_slider:after {
+		content:"";
+		position:absolute;
+		z-index:-2;
+	}
+
+	.index_slider .item .text{
+		height: 300px;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.index_slider .item .text>div{
+		margin: 20px 40px 20px 50%;
+		padding: 10px 20px 35px;
+		background: rgba(0,0,0, .6);
+		color: white;
+		font-size: 18px;
+	}
+	.index_slider .item .text>div h2{ font-size: 30px; margin-bottom: 15px; font-weight: bold;}
+	.index_slider .item .text>div a{
+		z-index: 100; 
+		display: inline-block;
+		margin-top: 15px;
+		color: white;
+		padding: 10px 25px;
+		background: rgba(255,0,0,.7);
+		font-size: 14px;
+		text-transform: uppercase;
+
+	}
+.carousel-control.right, .carousel-control.left {
+     background-image: none !important; 
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next {
+    margin-top: -20px;
+    font-size: 30px;
+    background: #353434;
+}
+.carousel-control.right {
+    right: -10px !important ;
+    top: 43%;
+    background: #353434;
+    width: 25px;
+    height: 40px;
+    opacity: 1;
+    padding-top: 8px;
+    z-index: 200;
+}
+.carousel-control.left {
+    left: -10px !important;
+    top: 43%;
+    background: #353434;
+    width: 25px;
+    height: 40px;
+    opacity: 1;
+    padding-top: 8px;
+    z-index: 200;
+}
+	/*	.Слайдер  */

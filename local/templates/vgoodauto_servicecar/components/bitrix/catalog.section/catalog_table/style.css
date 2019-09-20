@@ -1,0 +1,174 @@
+
+table.cena_ed_izm { width: 100%; height: 40px; } 
+
+
+table.artikul_nalichie { width: 100%; height: 50px; }
+table.artikul_nalichie td{vertical-align: middle; }
+a table.artikul_nalichie { color: #707070; }
+td.art { color: #707070; font-size: 13px; }
+
+
+table.price_ed_izm { width: 100%; }
+table.price_ed_izm td{ width: 50%; vertical-align: top; }
+table.price_ed_izm td.ed_izm{ width: 50%; vertical-align: top; text-align: right; font-size: 16px; padding-top: 5px }
+
+/*      Оформление характеристик        */
+
+    .table_har { width: 100%; margin: 0 0 40px; border-padding: 1px !important;}
+
+
+    .table_har th, .table_har td{ 
+        padding: 15px 0 0;
+        border-bottom: 1px #C4C4C4 dotted;
+        position: relative;
+        display: table-cell;
+        text-align: left;
+        vertical-align: bottom;
+     }
+
+.table_har td{ text-align: right; padding-right: 1px;}
+
+    .table_har th span, .table_har td span{ 
+        display: inline-block;
+        background: white;
+        /*padding: 0 15px 0 0;*/
+        /*margin-bottom: -20px;*/
+        bottom: -8px;
+        position: relative;
+    }
+
+    .table_har th span {padding-right: 7px;}
+    .table_har td span {padding-left: 7px;}
+
+
+    /*  В блоке цены    */
+            
+            .table_har.top { margin-top: -15px; }
+            .table_har.top th, .table_har.top td  { 
+                font-size: 14px;
+                padding: 10px 0 0;
+            }
+
+    /*  .В блоке цены   */
+
+/*      .Оформление характеристик       */
+
+
+.kol_tovar_plus_minus .btn { padding: 7px 10px; }
+
+.opisanie_razd {
+
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    /*border-top: 1px solid #e6e6e6;*/
+    /*border-bottom: 1px solid #e6e6e6;*/
+}
+
+table.svoistva { margin-top: 20px; margin-bottom: 10px !important; font-size: 13px; }
+
+.pict_list_col { border-bottom: 1px #ccc solid; }
+
+.razd_list { border-bottom: 1px #CCC solid; margin: 15px 15px; }
+
+.prod_plitki .pict_list {float: left; width: 55px !important; height: 55px;}
+
+.plitki_more .btn {
+    background-image: none;
+    width: 50%;
+    color: #ADADAD;
+    font-size: 13px;
+    padding: 0;
+} 
+
+.plitki_more .btn:hover { color: #636363; }
+
+
+.plitki_more .btn:active, .plitki_more .btn.active {
+    outline: 0;
+    background-image: none;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+    box-shadow: none;
+    color: black;
+}
+
+
+.list-group {
+    width: 100%;
+}
+
+    /* Список продукции*/
+
+.prod_plitki  .prod_title a{ color: black; font-size: 16px; }
+.prod_all{position: relative; margin: 0 15px; overflow: hidden; padding: 0 0 30px;}
+.prod_plitki { /*margin-top: 40px; */}
+.prod_plitki .prod_title{ /*height: 150px;*/ /*overflow: hidden;*/   }
+
+
+.prod_plitki .cena{ font-size: 16px; white-space: nowrap; font-family: 'normal'; text-align: right;}
+.prod_plitki .cena>div{ display: inline-block;}
+.prod_plitki .cena span{ font-size: 14px; color: #A3A3A3;font-family: 'fregat'; text-decoration: line-through; display: block;}
+.prod_plitki .v_nalichii{ font-size: 14px; color: green;  margin-top: 15px; text-align: center;}
+.prod_plitki .no_v_nalichii{ font-size: 14px; color: #acacac; margin-top: 15px; text-align: center;}
+.prod_plitki .car{ font-size: 14px; padding: 8px 10px; width: 60%;}
+.prod_plitki .car_no_kol{ font-size: 14px; padding: 8px 20px; width: 100%;}
+.prod_plitki a.zakaz{ font-size: 14px; padding: 8px 20px; border: 1px solid #686868 !important; background: #7f7f7f !important; border-radius: 3px;}
+.prod_plitki a.zakaz:hover{ color: white; background: #686868 !important; border: 1px solid #686868 !important;}
+.prod_plitki .plitki_more{ border: 1px solid #ebe9eb; padding: 8px 5px; margin-top: 10px; text-align: center;  font-size: 13px;}
+.prod_plitki .plitki_more a{ color: #acacac; }
+.prod_plitki .plitki_more a:hover{ color: red; }
+
+.kolichectvo {display: inline-block; float: left;  font-size: 16px; margin-top: 1px;}
+.kolichectvo table{border: #e4e2e4 1px solid; }
+.kolichectvo td{ text-align: center; padding: 6px 0; }
+.kolichectvo a{ color: #6f6a6f; }
+
+
+.kolichectvo input{ border-radius: 0; box-shadow: none; border: none; width: 100%; text-align: center; padding: 0; font-size: 16px; display: inline-block;}
+
+.shildiki {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+.shildiki div {padding: 3px 7px; margin-bottom: 3px;}
+
+.shildiki .new { background: #00AD58; font-size: 10px; text-transform: uppercase; color: white;}
+.shildiki .hit { background: #FF8300; font-size: 10px; text-transform: uppercase; color: white;}
+.shildiki .rasprod { background: red; font-size: 10px; text-transform: uppercase; color: white;}
+.shildiki .recom { background: #007FFF; font-size: 10px; text-transform: uppercase; color: white;}
+
+.prod_plitki .proc_skidki {
+    background: #c600ff;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    /*float: right;*/
+    /*margin: -8px;*/
+    text-align: center;
+    border-radius: 35px;
+    padding-top: 10px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.prod_plitki .proc_skidki div {
+    color: white;
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    margin-left: 0;
+    font-family: 'fregatbold';
+
+}
+
+    /* .Список продукции */
+
+

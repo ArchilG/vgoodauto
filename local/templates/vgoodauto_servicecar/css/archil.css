@@ -1,0 +1,33 @@
+.logo .slogan{
+    line-height:normal;
+    letter-spacing: 2px;
+}
+.index_slider .item .text>div{
+    max-width: 1400px;
+}
+.carousel-inner{
+    background:#000;
+}
+.uslugi_index_one>div:hover {
+    background: #000;
+    color: #fff;
+    border: 1px #000 solid;
+}
+.catalog_index_one>div:hover {
+    border-color: #000;
+}
+.catalog_index_one:hover .btn {
+    background: #000;
+    color: #fff;
+    border-radius: 0 !important;
+    border-color: #000;
+}
+.akcii:hover {
+    background: #000;
+    color: #fff;
+}
+.slider.brands .slick-slide a:hover {
+    filter: grayscale(0);
+    background: #000;
+    border-color: #000;
+}
